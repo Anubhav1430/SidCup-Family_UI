@@ -95,9 +95,10 @@ gsap.from("#about-us img,#about-us",{
     }
 })
 gsap.from(".card",{
-    scale:2,
+    scale:1,
     opacity:0,
     duration:1,
+    stagger:4,
     scrollTrigger:{
         trigger:".card",
         scroller:"body",
